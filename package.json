@@ -1,0 +1,23 @@
+{
+  "name": "littleprince37",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "build-pages": "tsc && vite build --base=/littleprince37/",
+    "preview": "vite preview"
+  },
+  "author": "",
+  "license": "mit",
+  "dependencies": {
+    "kaplay": "^3001.0.19"
+  },
+  "devDependencies": {
+    "@types/node": "^20.5.2",
+    "typescript": "^5.1.6",
+    "vite": "^4.4.9"
+  }
+}
