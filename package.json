@@ -7,7 +7,7 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-    "build-pages": "tsc && vite build --base=/littleprince37/dist/",
+    "build-pages": "tsc && vite build --base=/littleprince37/",
     "preview": "vite preview"
   },
   "author": "",
