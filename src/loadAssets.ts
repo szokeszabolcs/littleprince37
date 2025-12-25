@@ -4,6 +4,8 @@ export default () => {
   // Sprites and Animations
   k.loadSprite("startGraphic", "sprites/start-screen.png");
 
+  k.loadSprite("happyBirthDay", "sprites/happybirthday.png");
+
   k.loadSprite("donkeyKong", "sprites/donkey-kong.png", {
     sliceX: 2,
     anims: {
@@ -67,4 +69,5 @@ export default () => {
   k.loadSound("over", "sounds/dk-a2600_over.ogg");
   k.loadSound("victory", "sounds/dk-a2600_victory.ogg");
   k.loadSound("walk", "sounds/dk-a2600_walk.ogg");
+  k.loadSound("happybd", "sounds/happybd.ogg");
 };
