@@ -5,7 +5,7 @@ export const SCENE_KEY = "level2";
 
 export default k.scene(SCENE_KEY, () => {
   const WAIT = 90;
-  const URL = "https://www.youtube.com/embed/JYMqEEyaq0A?autoplay=1";
+  const URL = "https://www.youtube.com/embed/pvnWQ3fNkmY?autoplay=1";
 
   k.add([
     k.sprite("happyBirthDay"),
